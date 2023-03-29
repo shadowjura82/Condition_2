@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
 
     public static void task1() {
@@ -54,5 +55,50 @@ public class Main {
         if (days > 0) {
             System.out.println("Потребуется дней: " + days + "\n");
         } else System.out.println("Свыше 100 км доставки нет\n");
+    }
+
+    public static void task5() {
+        byte monthNumber = 1;
+        switch (monthNumber) {
+            case 1:
+                System.out.println("Зима\n");
+                break;
+            case 2:
+                System.out.println("Зима\n");
+                break;
+            case 3:
+                System.out.println("Весна\n");
+                break;
+            case 4:
+                System.out.println("Весна\n");
+                break;
+            case 5:
+                System.out.println("Весна\n");
+                break;
+            case 6:
+                System.out.println("Лето\n");
+                break;
+            case 7:
+                System.out.println("Лето\n");
+                break;
+            case 8:
+                System.out.println("Лето\n");
+                break;
+            case 9:
+                System.out.println("Осень\n");
+                break;
+            case 10:
+                System.out.println("Осень\n");
+                break;
+            case 11:
+                System.out.println("Осень\n");
+                break;
+            case 12:
+                System.out.println("Зима\n");
+                break;
+            default:
+                System.out.println("Месяца под номером " + monthNumber + " не существует\n");
+                break;
+        }
     }
 }
